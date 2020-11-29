@@ -1,0 +1,207 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(243, 243, 243);
+  margin: 0;
+  padding: 0%;
+  display: flex;
+  justify-content: center;
+}
+
+.instagram-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 50%;
+  height: 80vh;
+  font-size: 14px;
+}
+
+/* background-image: url(../img/insta1.jpeg); 
+    animation: mudarbg 10s infinite;
+    background-repeat: no-repeat;*/
+
+@keyframes mudarbg {
+  40% {
+    background-image: url(../img/insta2.jpeg);
+  }
+
+  60% {
+    background-image: url(../img/insta3.jpeg);
+  }
+
+  80% {
+    background-image: url(../img/insta4.jpeg);
+  }
+}
+
+.phone-box {
+  margin: 2rem;
+  float: left;
+  height: 600px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.phones {
+  background-image: url(/img/iphone\ 6\ branco.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  float: left;
+  height: 700px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.phone {
+  background-image: url(../img/insta1.jpeg);
+  animation: mudarbg 15s infinite;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-bottom: 87px;
+  height: 465px;
+  width: 260px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.insta-continue {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 40%;
+  min-height: 34rem;
+  float: right;
+}
+
+.insta_name {
+  height: 35px;
+}
+
+.photo-perfil {
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.group {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  background-color: #ffffff;
+  width: 100%;
+  padding: 1.5rem;
+  border: 1px solid lightgrey;
+  margin-bottom: 10px;
+}
+
+.instagram-login {
+  padding: 2rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+  font-weight: bolder;
+}
+
+.login1 {
+  background-color: #0095f6;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 1.5rem;
+}
+
+.conta {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  background-color: #ffffff;
+  width: 100%;
+  padding: 1.3rem;
+  border: 1px solid lightgrey;
+}
+
+.instagram-logout {
+  color: #0095f6;
+  font-weight: bold;
+}
+
+.conta a {
+  color: #0095f6;
+  font-weight: bold;
+}
+
+.get-app {
+  padding: 1rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.download img {
+  padding-top: 1rem;
+  height: 60px;
+}
+
+.rodape {
+  position: absolute;
+  bottom: 1px;
+  text-align: center;
+  max-width: 800px;
+  width: 700;
+  height: 140px;
+}
+
+.rodape2 {
+  position: absolute;
+  bottom: 4rem;
+}
+
+@media (max-width: 2024px) {
+  .instagram-wrapper {
+    width: 65%;
+  }
+}
+@media (max-width: 1024px) {
+  .instagram-wrapper {
+    width: 100%;
+  }
+}
+@media (max-width: 650px) {
+  body {
+    background-color: #ffffff;
+  }
+  .instagram-wrapper {
+    width: 80%;
+  }
+  .phone-box {
+    display: none;
+  }
+  .insta-continue {
+    width: 90%;
+  }
+  .group {
+    border: 1px solid transparent;
+  }
+  .conta {
+    border: 1px solid transparent;
+  }
+}
